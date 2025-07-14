@@ -1,0 +1,50 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Menlo', 'Monaco', 'Consolas', 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.hero {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 300;
+}
+
+.about {
+    font-size: 1.1rem;
+    max-width: 60ch;
+    line-height: 1.6;
+    margin: 2rem auto;
+    font-weight: 300;
+}
+
+.contact {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+a {
+    color: #000; /* Black for light background */
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+}
+
+a:hover {
+    color: #555; /* Slightly dimmer on hover */
+    border-bottom-color: #555;
+}

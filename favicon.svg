@@ -1,0 +1,11 @@
+<svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- 심플한 shrink wrap 패키지 아이콘 -->
+  <g>
+    <!-- 패키지 박스 -->
+    <rect x="12" y="15" width="16" height="10" fill="none" stroke="#000" stroke-width="1.5"/>
+    
+    <!-- 비닐포장 표시 (간단한 대각선) -->
+    <line x1="14" y1="17" x2="26" y2="23" stroke="#000" stroke-width="0.8" opacity="0.6"/>
+    <line x1="14" y1="23" x2="26" y2="17" stroke="#000" stroke-width="0.8" opacity="0.6"/>
+  </g>
+</svg>
