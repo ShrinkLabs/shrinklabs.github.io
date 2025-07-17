@@ -7,7 +7,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    padding: 2rem;
+    padding: 2rem 2rem 8rem;
     text-align: center;
     flex-direction: column;
     box-sizing: border-box;
@@ -47,4 +47,18 @@ a {
 a:hover {
     color: #555; /* Slightly dimmer on hover */
     border-bottom-color: #555;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+
+footer p {
+    margin: 0.2rem 0;
 }
