@@ -57,6 +57,7 @@ footer {
     padding: 1rem;
     font-size: 0.8rem;
     line-height: 1.2;
+    color: #666; /* Softer grey for footer text */
 }
 
 footer p {
