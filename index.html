@@ -5,152 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShrinkLabs</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #ffffff;
+        }
+
+        img {
+            max-width: 90vw;
+            max-height: 90vh;
+            width: auto;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container">
-            <h1><strong>ShrinkLabs</strong></h1>
-            <p class="hero-tagline">Making AI Smaller, Smarter, and Stronger</p>
-            <p class="hero-description">
-                <strong>ShrinkLabs</strong>는 기업의 AI 전환을 위한 통합 솔루션을 제공합니다. 
-                복잡한 AI/ML 워크플로우를 단순화하고, 실제 비즈니스 가치를 창출할 수 있는 
-                실용적인 AI 솔루션 개발에 집중하고 있습니다.
-            </p>
-            <div class="scroll-indicator">↓ 제품 둘러보기</div>
-        </div>
-    </section>
-
-    <!-- Products Section -->
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">제품군</h2>
-            <p class="section-subtitle">
-                데이터 수집부터 지능형 애플리케이션 구축까지의 전체 라이프사이클을 지원하는 
-                4개의 핵심 제품으로 구성된 통합 AI/ML 플랫폼
-            </p>
-            
-            <div class="products-grid">
-                <div class="product-card" data-product="data">
-                    <div class="product-name">ShrinkData</div>
-                    <div class="product-purpose">데이터 파이프라인</div>
-                    <div class="product-features">
-                        <strong>레거시 데이터를 AI 활용 가능한 형태로 변환</strong>
-                        <ul>
-                            <li>외부 데이터소스 연동</li>
-                            <li>데이터 정제 및 변환</li>
-                            <li>청킹 전략 설정 및 시각화</li>
-                            <li>벡터 임베딩 생성</li>
-                            <li>파인튜닝용 데이터셋 준비</li>
-                        </ul>
-                    </div>
-                </div>
-<!--
-                <div class="product-card" data-product="ml">
-                    <div class="product-name">ShrinkML</div>
-                    <div class="product-purpose">MLOps 플랫폼</div>
-                    <div class="product-features">
-                        <strong>머신러닝 모델의 생명주기 관리</strong>
-                        <ul>
-                            <li>모델 학습 파이프라인</li>
-                            <li>모델 배포 및 버전 관리</li>
-                            <li>성능 모니터링</li>
-                            <li>A/B 테스팅</li>
-                            <li>모델 프로바이더 관리</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="product-card" data-product="agent">
-                    <div class="product-name">ShrinkAgent</div>
-                    <div class="product-purpose">에이전트 오케스트레이션</div>
-                    <div class="product-features">
-                        <strong>지능형 에이전트 실행 환경 제공</strong>
-                        <ul>
-                            <li>MCP (Model Context Protocol) 관리</li>
-                            <li>에이전트 워크플로우 설계</li>
-                            <li>멀티 에이전트 오케스트레이션</li>
-                            <li>외부 도구/API 연동</li>
-                            <li>실시간 추론 및 의사결정</li>
-                        </ul>
-                    </div>
-                </div>
--->
-                <div class="product-card" data-product="chat">
-                    <div class="product-name">ShrinkChat</div>
-                    <div class="product-purpose">사용자 인터페이스</div>
-                    <div class="product-features">
-                        <strong>최종 사용자를 위한 채팅 인터페이스</strong>
-                        <ul>
-                            <li>직관적인 채팅 UI/UX</li>
-                            <li>대화 히스토리 관리</li>
-                            <li>사용자 권한 및 세션 관리</li>
-                            <li>멀티 채널 지원</li>
-                            <li>순수 프론트엔드 경험에 집중</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Solutions Section -->
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">솔루션</h2>
-            <p class="section-subtitle">
-                ShrinkLabs의 제품군이 해결하는 핵심 비즈니스 과제들
-            </p>
-            
-            <div class="solutions-grid">
-                <div class="solution-card">
-                    <div class="solution-icon">📊</div>
-                    <div class="solution-title">데이터 활용 극대화</div>
-                    <div class="solution-description">
-                        분산된 레거시 데이터를 AI가 이해할 수 있는 형태로 통합하고, 
-                        비즈니스 인사이트 도출을 위한 고품질 데이터셋을 구축합니다.
-                    </div>
-                </div>
-
-                <div class="solution-card">
-                    <div class="solution-icon">🤖</div>
-                    <div class="solution-title">지능형 자동화</div>
-                    <div class="solution-description">
-                        복잡한 업무 프로세스를 AI 에이전트가 자동으로 처리하도록 하여, 
-                        반복 작업을 줄이고 생산성을 극대화합니다.
-                    </div>
-                </div>
-
-                <div class="solution-card">
-                    <div class="solution-icon">⚡</div>
-                    <div class="solution-title">빠른 AI 도입</div>
-                    <div class="solution-description">
-                        복잡한 AI/ML 인프라 구축 없이도 기존 시스템과 쉽게 연동하여, 
-                        단기간 내에 AI의 실질적인 비즈니스 효과를 경험할 수 있습니다.
-                    </div>
-                </div>
-
-                <div class="solution-card">
-                    <div class="solution-icon">💬</div>
-                    <div class="solution-title">직관적 사용자 경험</div>
-                    <div class="solution-description">
-                        복잡한 AI 기술을 간단한 대화형 인터페이스로 제공하여, 
-                        기술적 전문성 없이도 누구나 AI의 힘을 활용할 수 있습니다.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <p>© 2025 ShrinkLabs. All rights reserved.</p>
-                <p>사업자등록번호: 792-11-02909 | 이메일: <a href="mailto:contact@shrinklabs.com">contact@shrinklabs.com</a></p>
-            </div>
-        </div>
-    </footer>
+    <img src="logo-0.png" alt="ShrinkLabs">
 </body>
 </html>
